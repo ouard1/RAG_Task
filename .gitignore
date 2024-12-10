@@ -1,0 +1,30 @@
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Virtual environment folders
+env/
+envr/
+venv/
+envgpt/
+
+# FAISS index data 
+faiss_index/
+
+# Environment variables
+.env
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints 
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Cache files
+*.cache
