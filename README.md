@@ -82,6 +82,7 @@ This will ensure that the system continuously adapts to new information and prov
 
 The app will provide answers using the extracted content from the PDFs. This is how the interaction looks:
 
-![Example Usage](![Uploading image.png…]()
+![Example Usage](!![image](https://github.com/user-attachments/assets/ea0f062c-b816-499b-bd85-e877bab41110)
+]()
 )
 
