@@ -57,18 +57,18 @@ This project allows you to interact with multiple PDF documents through a conver
 ## Future Enhancements
 
 ### Adaptive Retrieval Augmentation
-We plan to implement an adaptive retrieval mechanism that improves the system's ability to answer questions by dynamically adjusting to different types of queries. Currently, the system retrieves relevant documents from stored PDFs using a FAISS vector store, but in the future, if a relevant response is not found, the system will automatically query external sources (e.g., the web or a specific API) to augment the response. This adaptive retrieval system will allow the model to fetch live data, enhancing its ability to handle a broader range of questions, especially those requiring up-to-date information or topics not covered in the stored documents.
+ to implement an adaptive retrieval mechanism that improves the system's ability to answer questions by dynamically adjusting to different types of queries. Currently, the system retrieves relevant documents from stored PDFs using a FAISS vector store, but in the future, if a relevant response is not found, the system will automatically query external sources (e.g., the web or a specific API) to augment the response. This adaptive retrieval system will allow the model to fetch live data, enhancing its ability to handle a broader range of questions, especially those requiring up-to-date information or topics not covered in the stored documents.
 
 This functionality will rely on an intelligent fallback mechanism that determines when to search the web or other external sources, ensuring the AI remains useful even when document coverage is incomplete.
 
 ### Automatic Database Updates with New Documents
-We also plan to introduce a feature that automatically updates the document database when new PDFs are added to the system. The vector store will be re-indexed, and new documents will be processed and embedded, ensuring that the knowledge base remains current without requiring manual intervention. This will involve:
+ plan to introduce a feature that automatically updates the document database when new PDFs are added to the system. The vector store will be re-indexed, and new documents will be processed and embedded, ensuring that the knowledge base remains current without requiring manual intervention. This will involve:
 - Automatic text extraction from newly uploaded PDFs.
 - Re-running the vector store creation and embedding steps.
 - Updating the FAISS index with new content, which will be seamlessly integrated into the existing retrieval pipeline.
 
 This will ensure that the system continuously adapts to new information and provides more accurate and relevant answers as the database grows.
-
+### Reducing Latency
 ## Sources
 
 - [Optimizing RAG for Production: Leveraging Filtering and Reranking for Better Performance](https://bhavyabarri.medium.com/optimizing-rag-for-production-leveraging-filtering-and-reranking-for-better-performance-da8e16a20453)
