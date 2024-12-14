@@ -77,4 +77,11 @@ This will ensure that the system continuously adapts to new information and prov
 - [LangChain Official Website](https://www.langchain.com/)
 - GitHub Repository: [RAG Task](git@github.com:ouard1/RAG_Task.git)
 
+# Example of Use
+
+
+The app will provide answers using the extracted content from the PDFs. This is how the interaction looks:
+
+![Example Usage](![Uploading image.png…]()
+)
 
