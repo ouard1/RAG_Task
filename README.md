@@ -83,7 +83,8 @@ This will ensure that the system continuously adapts to new information and prov
 The app will provide answers using the extracted content from the PDFs. This is how the interaction looks:
 
 ![image](https://github.com/user-attachments/assets/ef574f2e-ebe4-4a0d-8b34-d3fa0be5fc27)
-![image](https://github.com/user-attachments/assets/bc417112-3392-4905-aa6a-0df026fb4b0f)
+![image](https://github.com/user-attachments/assets/3caf06ba-cf2f-4cb1-b38c-3bcf54e55e54)
+
 
 
 
